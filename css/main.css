@@ -1236,7 +1236,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #86d23d;
+  background: #adffdf;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -3068,4 +3068,28 @@ pre .addition {
 }
 pre .deletion {
   background: #0ff;
+}
+code {
+  color: #000;
+}
+pre code {
+  background: none;
+  color: #000;
+  font-size: 0.875em;
+  padding: 0;
+  text-shadow: none;
+}
+pre .comment {
+  color: #008b8b;
+}
+pre,
+.highlight {
+  background: #f7f7f7;
+  color: #000;
+  line-height: 1.6;
+  margin: 0 auto 20px;
+}
+pre .keyword,
+pre .javascript .function {
+  color: #000080;
 }
